@@ -6,37 +6,6 @@
 
 ---
 ### Problem Statement
-<<<<<<< HEAD
-Food insecurity in the United States is a problem faced by communities from a broad spectrum of socioeconomic backgrounds across all fifty states. The present study aims to model a diverse assemblage of economic data collected at the county-level with the express purpose of predicting food insecurity based on these contributing factors. Understanding key economic indicators of food insecurity will help better identify areas in need of food assistance programs, such as food pantries and dietary education centers. Additionally, the modeling process will highlight contributing factors towards food insecurity, so that targeted action at the local level can be undertaken alleviate the scourge of food insecurity.
-
-   1. Some actionable use of the model
-   2. Some other use/ application?
-       * Try it for the UK? 
-       * mention of an app/etc? 
-###### $_{1}$https://sources
-###### $_{1}$https://sources
-
-
- ---
-## Executive Summary
-**Sumamry of methodolgy, production model**
-   
-   -  various attributes of discussion for model 
-        
-        -  other models tried...
-        
-        - something else
-        
-**streamlit/ tabluea thingy?**
-
-![a picture](./resources/gui_pic.PNG) 
-           
----
-### Data Description
-Data utilized for the project analysis was obtained through.... a bunch of places.. 
-
-Dataset contains X columns.  dataset size....
-=======
 Food insecurity in the United States is a problem faced by communities from a broad spectrum of socioeconomic backgrounds across all fifty states. The present study aims to model a diverse assemblage of economic data collected at the county-level with the express purpose of predicting food insecurity based on these contributing factors. Understanding key economic indicators of food insecurity will help better identify areas in need of food assistance programs, such as food pantries and dietary education centers. Additionally, the modeling process will highlight contributing factors towards food insecurity, so that targeted action at the local level can be undertaken to alleviate the scourge of food insecurity.
 
 A web-app will be developed to allow anyone to access the data
@@ -70,7 +39,7 @@ Initial exploratory data analysis was methodical.  Review of all features was co
     
    - Our production model utilized all numerical features from our primary data set, netting our strongest results, while being the most interpretable. Quick run times also helped with out decision. 
 
-The EDA shows that childhood food insecurity rates are much higher and that certain states in the south and west suffer from higher food insecurity than average. When investigating which indicators are the strongest predictors for food insecurity; income, employment, access to healthcare, and education are just a few of the leading features. Group One’s Tableau visualizations of Food Insecurity vs. Formal Education and Median Household Income show how education levels and income definitely correlate with food insecurity. Finally, the time series predictions show food insecurity rates generally decreasing through the USA, but certain states like Louisiana, Mississippi, Arkansas, New Mexico, and Utah will still have higher than average food insecurity in the coming years.
+The EDA shows that childhood food insecurity rates are much higher and that certain states in the south and west suffer from higher food insecurity than average. When investigating which indicators are the strongest predictors for food insecurity; income, employment, access to healthcare, and education are just a few of the leading features. Group One’s Tableau visualizations of food insecurity vs. formal education and median household income show how education levels and income definitely correlate with food insecurity. Finally, the time series predictions show food insecurity rates generally decreasing through the USA, but certain states like Louisiana, Mississippi, Arkansas, New Mexico, and Utah will still have higher than average food insecurity in the coming years.
 
 **A representation of our forcasted MultiVariate Time Series Model is shown below.**
 
@@ -81,7 +50,6 @@ The EDA shows that childhood food insecurity rates are much higher and that cert
 Data utilized for the project analysis was obtained through a variety of sources, including the CDC, Feeding America, County Heath Rankings, Census.gov and others.  There were over a dozen different data sources that were reviewed, cleaned, and formatted in order to be combined into one primary data source for our project.  In addition to our primary dataset, many smaller ones were developed for various EDA and modeling needs through the notebook. 
 Our primary dataset contained 60 features (of varying data types) and 3140 entries (representing each county in the United States).
 
->>>>>>> upstream/main
 
 **Data Dictionary created for datasets utilized in this analysis**
 
@@ -116,65 +84,6 @@ Our primary dataset contained 60 features (of varying data types) and 3140 entri
 | percent_adults_with_diabetes                  | Percent                                             | percent_of_adults_completing_some_college_or_associate_degree | Percent                          |
 | percent_limited_access_to_healthy_foods       | Percent With Limited Access to Grocery Stores       | percent_of_adults_with_bachelor_degree_or_higher              | Percent                          |
 | median_household_income                       | Number                                              | fi_rate_18                                                    | Percent                          |
-<<<<<<< HEAD
-|                                               |                                                     | ch_fi_rate_18                                                 | Percent                          |
-|                                               |                                                     |                                                               |                                  |
-
- 
-**(TO BE UPDATED) The following databases were utilized in analysis:**
-
-| Database Utilized            | Features Within Database                                         |
-|------------------------------|------------------------------------------------------------------|
-| Pandas                       |                                                                  |
-| Numpy                        |                                                                  |
-| matplotlib                   | pyplot                                                           |
-| pickle                       |                                                                  |
-| nltk - tokenize              | sent-tokenizer, Regexp                                           |
-| nltk - sentiment             | SetimentIntensityAnalyzer                                        |
-| time                         |                                                                  |
-| xgboost                      | XGBClassifier                                                    |
-| SKLearn - Model Selection    | train_test_split, GridSearchCV, corr_val_score                   |
-| SKLearn - Pipeline           | Pipeline                                                         |
-| SKLearn - Naive-bayes        | MultinomialNB, BernoulliNB                                       |
-| SKLearn - Linear Model       | LogisticRegression, LogisticRegressionCV                         |
-| SKLearn - Feature Extraction | CountVectorizer, TfidfVectorizer                                 |
-| SKLearn - Ensemble           | RandomForestClassifier, ExtraTreesClassifier, AdaBoostClassifier |
-| SKLearn - Tree               | export_text, DecisionTreeClassifier, plot_tree                   |
-| SKLearn - SVM                | LinearSVC                                                        |
-| SKLearn - Metrics            | confusion_matrix, plot_confusion_matrix                          |
-| tkinter                      | simpledialog                                                     |
-
----      
-### Analysis - TO BE UPDATED!
-
-1. All utilized datasets were cleaned and modified to provide the needed information to complete the problem statement.
-2. Additional subreddits were utilized to further test our production model on unseen data.
-  
-  -  Sentiment Analysis was conducted as a precurser to modeling to help identify any correlations between the two intially chosen subreddits (r/VanLife and r/camping)
-      ![another pic](./resources/sentiment_table.JPG)
-  
-  -  The variety of techniques utilized throughout our model preparations are shown below, with our Production Model parameters off on the side. Our production model baseline performance on r/VanLife and r/camping were 97% on training data, 87.6% on testing data.  An overfit model, but that was not our concern for this project, with testing results taking the win.
-      ![another pic](./resources/model_params.JPG)
-
-   -  Our model's performance on several different pairs of subreddits with varying similarities (low score indicates material within subreddits cannot be distiguished independantly... they are too similar.  High scoring results indicate subreddit pairs have very different content.)
-      ![another pic](./resources/follow_up_performance.PNG) 
-
-
- 
--
-
-3.  Additional supporting analysis is provided in the code notebook for review, as well as additional insights. Indepth and detailed processing and review are featured throughout the code notebook within markdown and code- formatted lines. 
-
----
-### Conclusions and Recommendations- TO BE UPDATED!!!
-   
-   -  Our Production Model is a success!  We, at Reddit, are looking forward to releasing this hijinks to unsuspecting Reddit users on April 1st. The model performed as well as we could have hoped, weeding out similar subreddits and promoting others as ‘unique’
- 
-     
-   -  Although, lighthearted from the beginning, we understand this model can be utilized for many more great things here, at Reddit.  We look forward to applying classification modeling for better predictive advertising, product deals with merchants, and to enhance the user experience all together.  For now, though, we will be monitoring users on April Fools' to see how everyone reacts, and are looking forward to putting together our 2022 ideas to work soon!
-
-  
-=======
 | ch_fi_rate_18                                 | Percent                                             | 
 
 
@@ -216,4 +125,3 @@ Food insecurity is a challenge faced by many Americans due to a wide array of co
 Additionally, time series modeling at the state level demonstrates the extent to which food insecurity will evolve going forward based on past trends. This enables the identification of locations where communities are at greatest risk of continued or worsening food insecurity. With this information in mind, policy can be guided to best allocate resources to areas in need of assistance. Our time series modeling suggests that areas in the Deep South and several states in the West, including New Mexico and Utah, will continue to experience food insecurity challenges, which warrants further investigation to better understand contributing causes and potential solutions.
 
    
->>>>>>> upstream/main
