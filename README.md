@@ -2,7 +2,7 @@
 ---
 ## <span style="color:Green">Group 1</span>      
 
-#### Alec Edgecliffe-Johnson, Ryan McDonald, Andrew Roberts, Ira Seidman- General Assembly 
+#### Alec Edgecliffe-Johnson, Ryan McDonald, Andrew Roberts, Ira Seidman - General Assembly 
 
 ---
 ### Problem Statement

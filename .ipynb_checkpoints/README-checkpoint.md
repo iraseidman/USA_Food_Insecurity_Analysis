@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-# lancelot_group_project
-
-We�ll figure this stuff out
-UPDATING README FILE WITH RANDOM SENTENCE
-=======
 # <img src="./resources/GA.png" width="25" height="25" />   <span style="color:Purple">Project 5 :  Food Insecurity Regression Study</span> 
 ---
 ## <span style="color:Green">Group 1</span>      
 
-#### Alec Edgecliffe-Johnson, Ryan McDonald, Andrew Roberts, Ira Seidman- General Assembly 
+#### Alec Edgecliffe-Johnson, Ryan McDonald, Andrew Roberts, Ira Seidman - General Assembly 
 
 ---
 ### Problem Statement
@@ -45,7 +39,7 @@ Initial exploratory data analysis was methodical.  Review of all features was co
     
    - Our production model utilized all numerical features from our primary data set, netting our strongest results, while being the most interpretable. Quick run times also helped with out decision. 
 
-The EDA shows that childhood food insecurity rates are much higher and that certain states in the south and west suffer from higher food insecurity than average. When investigating which indicators are the strongest predictors for food insecurity; income, employment, access to healthcare, and education are just a few of the leading features. Group One’s Tableau visualizations of Food Insecurity vs. Formal Education and Median Household Income show how education levels and income definitely correlate with food insecurity. Finally, the time series predictions show food insecurity rates generally decreasing through the USA, but certain states like Louisiana, Mississippi, Arkansas, New Mexico, and Utah will still have higher than average food insecurity in the coming years.
+The EDA shows that childhood food insecurity rates are much higher and that certain states in the south and west suffer from higher food insecurity than average. When investigating which indicators are the strongest predictors for food insecurity; income, employment, access to healthcare, and education are just a few of the leading features. Group One’s Tableau visualizations of food insecurity vs. formal education and median household income show how education levels and income definitely correlate with food insecurity. Finally, the time series predictions show food insecurity rates generally decreasing through the USA, but certain states like Louisiana, Mississippi, Arkansas, New Mexico, and Utah will still have higher than average food insecurity in the coming years.
 
 **A representation of our forcasted MultiVariate Time Series Model is shown below.**
 
@@ -131,4 +125,3 @@ Food insecurity is a challenge faced by many Americans due to a wide array of co
 Additionally, time series modeling at the state level demonstrates the extent to which food insecurity will evolve going forward based on past trends. This enables the identification of locations where communities are at greatest risk of continued or worsening food insecurity. With this information in mind, policy can be guided to best allocate resources to areas in need of assistance. Our time series modeling suggests that areas in the Deep South and several states in the West, including New Mexico and Utah, will continue to experience food insecurity challenges, which warrants further investigation to better understand contributing causes and potential solutions.
 
    
->>>>>>> upstream/main
