@@ -57,7 +57,6 @@ Below is a map of percent below the poverty line by county in the USA. Similar t
     if __name__ == "__main__":
         main()
 
-
     st.subheader('Food Insecurity Against Various Factors (General Rate and Child Rate - 2019)')
     st.write('''
 Below are plots of food insecurity rate by county in the USA. These scatter plots indicate the general food insecurity rates (in blue) and child food insecurity rates (in orange). The plots show a trend of child based food insecurity increasing at a faster rate than that of general food insecurity.  The data shows children are most at higher risk than adults for the majority of factors included in our data, most notably percent uninsured, percent minority, percent in poverty, and percent rural (shown below).''')
