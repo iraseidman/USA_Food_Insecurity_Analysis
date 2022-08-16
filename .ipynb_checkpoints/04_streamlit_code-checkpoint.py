@@ -1,5 +1,5 @@
 ########## Run this code in your terminal to have it hosted on your browser!  In Terminal: 'streamlit run 04_streamlit_code.py' ##########
-########## Also hosted live @ https://food-ins-18.herokuapp.com/ ##########
+########## Also hosted live @ https://usa-food-insecurity.herokuapp.com// ##########
 
 ## Code for embedding into in tableau from https://towardsdatascience.com/embedding-tableau-in-streamlit-a9ce290b932b
 ## Base code from streamlit lesson
@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 # Steamlit imports
 import streamlit as st
 import streamlit.components.v1 as components
-import streamlit as st
 
 st.set_page_config(
     page_icon='📖',
@@ -56,7 +55,6 @@ Below is a map of percent below the poverty line by county in the USA. Similar t
 
     if __name__ == "__main__":
         main()
-
 
     st.subheader('Food Insecurity Against Various Factors (General Rate and Child Rate - 2019)')
     st.write('''
