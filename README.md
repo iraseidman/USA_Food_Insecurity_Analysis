@@ -5,7 +5,7 @@
 #### Ira Seidman, Alec Edgecliffe-Johnson, Ryan McDonald, and Andrew Roberts - General Assembly
 
 ---
-### Problem Statement
+## Problem Statement
 Food insecurity in the United States is a problem faced by communities from a broad spectrum of socioeconomic backgrounds across all fifty states. The present study aims to model a diverse assemblage of economic data collected at the county-level with the express purpose of predicting food insecurity based on these contributing factors. Understanding key economic indicators of food insecurity will help better identify areas in need of food assistance programs, such as food pantries and dietary education centers. Additionally, the modeling process will highlight contributing factors towards food insecurity, so that targeted action at the local level can be undertaken and alleviate the scourge of food insecurity.
 
 A web-app will be developed to allow anyone to access the data.
