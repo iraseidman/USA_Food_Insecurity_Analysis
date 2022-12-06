@@ -4,12 +4,6 @@
 ## Code for embedding into in tableau from https://towardsdatascience.com/embedding-tableau-in-streamlit-a9ce290b932b
 ## Base code from streamlit lesson
 
-# Data manipulation imports
-import pandas as pd
-
-# Plotting imports
-import matplotlib.pyplot as plt
-
 # Steamlit imports
 import streamlit as st
 import streamlit.components.v1 as components
