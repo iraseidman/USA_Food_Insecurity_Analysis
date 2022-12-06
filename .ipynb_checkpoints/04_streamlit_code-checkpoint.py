@@ -24,10 +24,6 @@ if page == 'Feeding America Visualized':
 This website and applet are a representation of our group's data exploration into food insecurity in America. The group was Ira Seidman, Alec Edgecliffe-Johnson, Ryan McDonald, and Andrew Roberts for a project in our General Assembly data science bootcamp. In this and subsequent pages we portray food insecurity and several related socioeconomic variables at county and state levels for the USA. We also explain the features that have the largest predictive power in our machine learning models (the code for which can be found on the project's [GitHub](https://github.com/iraseidman/USA_Food_Insecurity_Analysis)).
     ''')
 
-    st.write('''
-In the final page of this web app we display our timeseries forecasts for food insecurity until 2026 which was developed with the univariate Prophet tool and multivariate VAR models, the code for both can be found on GitHub.
-    ''')
-
     st.subheader('Food Insecurity by County in the USA (2019)')
     st.write('''
 Below is a map of food insecurity in the US. We can observe greater food insecurity in southern counties, parts of Appalachia, and counties in close proximity to Native American reservations (zoom out for Alaska and Hawaii for all maps).
@@ -81,7 +77,6 @@ vizElement.style.height='587px';
 var scriptElement = document.createElement('script');
 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>"""
-        
         components.html(html_temp, height = 600, width = 900)
 
     if __name__ == "__main__":
